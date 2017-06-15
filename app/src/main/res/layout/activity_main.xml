@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_open_dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_dev"/>
+
+        <Button
+            android:id="@+id/btn_close_dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/close_dev"/>
+
+        <Button
+            android:id="@+id/btn_inventory_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inventory_start"/>
+
+        <Button
+            android:id="@+id/btn_inventory_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inventory_stop"/>
+
+        <Button
+            android:id="@+id/btn_read_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/read_area"/>
+
+        <Button
+            android:id="@+id/btn_read_area1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/read_area"/>
+
+        <Button
+            android:id="@+id/btn_write_area1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/write_area"/>
+
+        <Button
+            android:id="@+id/btn_write_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/write_area"/>
+
+        <Button
+            android:id="@+id/btn_select_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_card"/>
+
+        <Button
+            android:id="@+id/btn_set_antenna_power"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_antenna_power"/>
+
+        <Button
+            android:id="@+id/btn_get_antenna_power"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_antenna_power"/>
+
+        <Button
+            android:id="@+id/btn_set_freq_region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_freq_region"/>
+
+        <Button
+            android:id="@+id/btn_get_freq_region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_freq_region"/>
+
+        <Button
+            android:id="@+id/btn_set_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_password"/>
+
+        <Button
+            android:id="@+id/btn_set_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_lock"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

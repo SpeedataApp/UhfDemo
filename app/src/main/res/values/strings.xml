@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UhfDemo</string>
+    <string name="open_dev">设备上电</string>
+    <string name="close_dev">设备下电</string>
+    <string name="inventory_start">开始盘点</string>
+    <string name="inventory_stop">停止盘点</string>
+    <string name="read_area">读卡</string>
+    <string name="write_area">写卡</string>
+    <string name="select_card">选卡</string>
+    <string name="set_antenna_power">设置天线功率</string>
+    <string name="get_antenna_power">获取天线功率</string>
+    <string name="set_freq_region">设置频率区域</string>
+    <string name="get_freq_region">获取频率区域</string>
+    <string name="set_password">设置密码</string>
+    <string name="set_lock">设置锁定状态</string>
+</resources>
